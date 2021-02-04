@@ -1,0 +1,15 @@
+id: 0
+name: Katrina
+perilType: USHU
+date: '2020-06-30'
+losses:
+  - cedent: TrainRe
+    class: TrainRe_Property Treaty
+    values:
+      - date: '2020-10-01'
+        paid: 0
+        unpaid: 20000000
+        distribution: Lognormal
+        stdDeviation: 30000000
+        unpaidMin: 0
+        unpaidMax: 1110
