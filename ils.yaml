@@ -1,1 +1,162 @@
-name: ils
+nav:
+  '2020-01-01': JAN_2020
+  '2020-02-01': FEB_2020
+riskFreeYield: 0
+riskMeasuresEnabled: true
+riskMeasures:
+- name: RM1
+  type: Freq/Sev
+  perils:
+  - id: AUEQ
+    freq: 1
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: USEQ
+    freq: 1
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: USHU
+    freq: 1
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: AUWS
+    freq: 1
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: JPEQ
+    freq: 1
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: JPWS
+    freq: 1
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: EUWS
+    freq: 1
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+- name: RWang1
+  type: Wang-1
+  perils:
+  - id: AUEQ
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: USEQ
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: USHU
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: AUWS
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: JPEQ
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: JPWS
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+  - id: EUWS
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.12
+      TrainRE_PRoperty Treaty:
+        param1: 0.21
+- name: RMwang2
+  type: Wang-2
+  perils:
+  - id: AUEQ
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.134
+        param2: 0.243
+      TrainRE_PRoperty Treaty:
+        param1: 0.134
+        param2: 0.243
+  - id: USEQ
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.2134
+        param2: 0.243
+      TrainRE_PRoperty Treaty:
+        param1: 0.134
+        param2: 0.243
+  - id: USHU
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.134
+        param2: 0.243
+      TrainRE_PRoperty Treaty:
+        param1: 0.134
+        param2: 0.243
+  - id: AUWS
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.134
+        param2: 0.243
+      TrainRE_PRoperty Treaty:
+        param1: 0.134
+        param2: 0.243
+  - id: JPEQ
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.134
+        param2: 0.243
+      TrainRE_PRoperty Treaty:
+        param1: 0.134
+        param2: 0.243
+  - id: JPWS
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.134
+        param2: 0.243
+      TrainRE_PRoperty Treaty:
+        param1: 0.134
+        param2: 0.243
+  - id: EUWS
+    params:
+      TrainRE_PRoperty D&F:
+        param1: 0.134
+        param2: 0.243
+      TrainRE_PRoperty Treaty:
+        param1: 0.134
+        param2: 0.243
