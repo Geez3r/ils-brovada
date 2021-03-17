@@ -1,11 +1,3 @@
-jobType: nav
-analysisName: shawn analysis
-analysisDesc: sample analysis
-lastSuccessfulRunId: 6019997faf4091399cea7dc2
-lastRunId: 6018887faf4091399cea7de7
+Desc: sample portfolio
 createdBy: Shawn
 createdDate: '2020-02-03'
-lastModifiedDate: '2021-03-14'
-status: unpublished
-associatedStructureFile: 824f4ccf-5fee-439e-9fc3-04f79681b82f
-associatedEventLosses: null
