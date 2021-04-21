@@ -1,22 +1,16 @@
 id: b9598700-8b5f-406a-9453-97592a465785
-name: Katrina
-perilType: USHU
-eventDate: '2020-06-30'
+name: Winter Storm Uri
+perilType: AIR_USWF_5
+eventDate: '2021-02-17'
 losses:
-- cedent: TrainRe
-  class: TrainRe_Property Treaty
-  values:
-  - calibrationDate: '2020-10-01'
-    paid: 0
-    unpaid: 20000000
-    distribution: Lognormal
-    stdDeviation: 30000000
-    unpaidMin: 0
-    unpaidMax: 1110
-  - calibrationDate: '2020-11-01'
-    paid: 100000
-    unpaid: 19000000
-    distribution: Lognormal
-    stdDeviation: 30000000
-    unpaidMin: 0
-    unpaidMax: 1110
+  - cedent: Cedant B_2021
+    class: Cedant B_2021_Property
+    values:
+      - calibrationDate: '2021-03-31'
+        valDate: '2021-04-30'
+        paid: 0
+        unpaid: 20000000
+        distribution: Lognormal
+        stdDeviation: 30000000
+        unpaidMin: 0
+        unpaidMax: 400000000
